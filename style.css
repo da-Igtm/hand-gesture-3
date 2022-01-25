@@ -1,0 +1,29 @@
+body{
+    background-color: thistle;
+    font-size: 10px;
+    color: red;
+
+}
+#camera{
+    border: turquoise;
+    border-style: groove;
+    height: 400px;
+    width: 350px;
+}
+#picture{
+    border: indigo;
+    border-style: solid;
+    height: 400px;
+    width: 350px;
+}
+#result{
+    font-size: 24px;
+}
+#webcam{
+
+color: tomato;
+}
+#picture{
+width: 40px;
+color: lightgoldenrodyellow;
+}

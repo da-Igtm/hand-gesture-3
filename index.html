@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Hand gestures web app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <center>
+        <h2 class="btn btn-success btn-lg">
+            Hand Gestures web app
+            <br>
+            <span>&#9996;</span><span>&#128076;</span><span>&#128077;</span>
+        </h2>
+        </center>
+        <div id="webcam" class="col-lg-4">
+            <label>Webcam</label>
+            <div id="camera"></div>
+            <button onclick="snapshot()" class="btn btn-primary">Take pic</button>
+        </div>
+        <div class="col-lg-4"><p id="result" class="text-center">Just check</p>
+        <h4 class="text-center">Emojis</h3>
+        </div>
+        <div id="snapshot" class="col-lg-4">
+            <label>Snapshot</label>
+            <div id="picture"></div>
+            <button onclick="identify()" class="btn btn-success">Gesture</button>
+        </div>
+    
+</div>
+<script src="main.js"></script>
+    </body>
+</html>
